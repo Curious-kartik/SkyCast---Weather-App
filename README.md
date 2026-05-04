@@ -1,17 +1,14 @@
-# self_weather_app
+SkyCast — Weather App
 
-A new Flutter project.
+A simple Flutter weather app that shows real-time weather data using the OpenWeather API.
 
-## Getting Started
+# Setup
+Clone the repo
+Create a .env file in the root
+eg -- API_KEY=your_openweather_api_key
 
-This project is a starting point for a Flutter application.
+Run the app
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Write the following commands in the terminal section of vs code --
+flutter pub get
+flutter run
